@@ -1,6 +1,4 @@
-{
-  /* Disabled due to spam */
-}
+// Crisp live chat was disabled due to spam; banner CTA remains below.
 
 // import React, { Component } from "react";
 // import dynamic from "next/dynamic";

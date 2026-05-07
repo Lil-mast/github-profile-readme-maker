@@ -1,11 +1,11 @@
 import React from "react";
-import { useLocalStore } from "mobx-react";
+import { useLocalObservable } from "mobx-react";
 import { createGPRMStore } from "./gprmStore";
 
 const GPRMContext = React.createContext(null);
 
 export const GPRMProvider = ({ children }) => {
-  const gprmStore = useLocalStore(createGPRMStore);
+  const gprmStore = useLocalObservable(() => createGPRMStore());
 
   return (
     <GPRMContext.Provider value={gprmStore}>{children}</GPRMContext.Provider>

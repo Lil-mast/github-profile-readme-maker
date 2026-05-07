@@ -1,5 +1,5 @@
 import React from "react";
-import TextLoop from "react-text-loop/lib/components/TextLoop";
+import TextLoop from "react-text-loop";
 
 export default function AnimatedText() {
   return (
