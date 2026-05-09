@@ -1,31 +1,94 @@
-# CONTRIBUTION GUIDE
+# Contributing to Salamander GitHub Profile ReadMe Maker
 
-[1. Branch Organization](https://github.com/VishwaGauravIn/github-profile-readme-maker/blob/master/CONTRIBUTING.md#branch-organization) |  [2. Prerequisites](https://github.com/VishwaGauravIn/github-profile-readme-maker/blob/master/CONTRIBUTING.md#prerequisites) |  [3. Report Bugs](https://github.com/VishwaGauravIn/github-profile-readme-maker/blob/master/CONTRIBUTING.md#how-to-report-bugs) |  [4. Non-Coding Contribution](https://github.com/VishwaGauravIn/github-profile-readme-maker/blob/master/CONTRIBUTING.md#non-coding-contribution)
+<div align="center">
+  <img src="./public/salamanderlogo.jpeg" width="120" alt="Salamander Tech Hub logo" />
+  <p><strong>Maintained by <a href="https://github.com/Salamander-Tech-Hub">Salamander Tech Hub</a></strong></p>
+</div>
 
-### Branch Organization
+Thank you for helping improve this project. Every contribution—code, docs, design, or feedback—makes a difference for open-source developers building representable GitHub profiles.
 
-Submit all changes directly to the main branch. We don’t use separate branches for development or for upcoming releases. We do our best to keep the main branch in good shape, with all tests passing.
+**Quick links:** [How to set up](#how-to-set-up-locally) · [Before you open a PR](#before-you-open-a-pull-request) · [Branching](#branch-organization) · [Report bugs](#how-to-report-bugs) · [Non-coding](#non-coding-contribution) · [Roadmap ideas](OPEN_SOURCE_ISSUES_ROADMAP.md)
 
-Code that lands in the main branch must be compatible with the latest stable release. It may contain additional features, but no breaking changes. We should be able to release a new minor version from the tip of the main branch at any time.
+---
 
-### Prerequisites
+## How to set up locally
 
-- You have Node installed at v8.0.0+ and Yarn at v1.2.0+.
-- You have JDK installed.
-- You have GCC installed or are comfortable installing a compiler if needed. Some of our dependencies may require a compilation step. On OS X, the Xcode Command Line Tools will cover this. On Ubuntu, `apt-get install build-essential` will install the required packages. Similar commands should work on other Linux distros. Windows will require some additional steps; see the node-gyp installation instructions for details.
-- You are familiar with Git.
+1. **Prerequisites**
+   - [Node.js](https://nodejs.org/) **LTS** (v18 or newer recommended; Next.js 12 needs a current Node).
+   - [Git](https://git-scm.com/).
+   - A package manager: `npm` (comes with Node) or `yarn` / `pnpm`.
 
-### How to Report Bugs
+2. **Clone and install**
 
-To report bugs, you should create an issue and describe the bug properly. You can also suggest a way to fix it if you know how. You should mention your device details (if possible) so that we can find the fix faster.
+   ```bash
+   git clone https://github.com/Salamander-Tech-Hub/github-profile-readme-maker.git
+   cd github-profile-readme-maker
+   npm install
+   ```
 
-### Non-Coding Contribution
+3. **Run the app**
 
-Your contribution is valuable to us, and there are various ways to contribute to this project if you are not from a coding background, such as:
+   ```bash
+   npm run dev
+   ```
 
-- You can help us improve our design.
-- You can create documentation for this project.
-- You can help us in the marketing department.
-- You can even edit this file.
+   Open [http://localhost:3000](http://localhost:3000).
 
-Basically, if you want to contribute, there are infinite ways to do so.
+4. **Quality checks before you push**
+
+   ```bash
+   npm run lint
+   npm run build
+   ```
+
+   Fix any lint errors. Ensure the production build completes if your change touches build-sensitive code.
+
+---
+
+## Before you open a pull request
+
+- **Check existing issues and PRs** so you do not duplicate work.
+- **Open an issue first** for large or risky changes (new features, refactors) so maintainers can align on direction.
+- **Scope:** Keep PRs focused—one feature or fix per PR is easier to review.
+- **Match the codebase:** Follow existing patterns (React components, MobX store usage, Tailwind classes).
+- **No unrelated changes:** Avoid drive-by refactors or formatting-only sweeps unless agreed in the issue.
+
+For idea lists by difficulty, see [OPEN_SOURCE_ISSUES_ROADMAP.md](OPEN_SOURCE_ISSUES_ROADMAP.md).
+
+---
+
+## Branch organization
+
+- **Default branch:** `main` is the integration branch; it should stay in a shippable state.
+- **Workflow:** Create a **feature branch** from `main`, work on your change, then open a **pull request** into `main`.
+- **Avoid breaking changes** without discussion. Backward compatibility matters for users generating READMEs.
+
+---
+
+## How to report bugs
+
+1. [Open an issue](https://github.com/Salamander-Tech-Hub/github-profile-readme-maker/issues) on this repository.
+2. Describe **what you expected** vs **what happened**.
+3. Add **steps to reproduce**, your **browser and OS**, and a **screenshot** or error text if useful.
+4. If you already have a fix, you can link it in the issue and open a PR referencing that issue.
+
+---
+
+## Non-coding contribution
+
+You can contribute without writing application code:
+
+- Improve **documentation** (README, this file, inline comments where needed).
+- Suggest or refine **UI/UX** and **accessibility** feedback.
+- Help **triage issues**, reproduce bugs, or write clearer issue titles and descriptions.
+- Propose **content** for the roadmap or contributor onboarding.
+
+---
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the same license as the project (**GPL-3.0**). See the repository `LICENSE` file for full terms.
+
+---
+
+**Thanks again** for helping Salamander Tech Hub and the open-source community build better GitHub profiles.
