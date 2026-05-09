@@ -64,3 +64,7 @@ Every completed issue should improve one of these outcomes:
 - Better visual quality for generated profiles.
 - Better contributor experience for open-source developers.
 - Better reliability, performance, and accessibility of the tool.
+
+> [!TIP]
+> Wishing every open-source developer success on this roadmap.
+> Keep building, keep learning, and keep shipping awesome work.
