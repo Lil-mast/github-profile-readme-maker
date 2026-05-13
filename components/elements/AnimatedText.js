@@ -15,7 +15,7 @@ export default function AnimatedText() {
         <span className="text-amber-200 underline underline-offset-4 decoration-dashed">
           Interactive
         </span>
-        <span className="text-green-200 underline underline-offset-4 decoration-dashed">
+        <span className="text-yellow-200 underline underline-offset-4 decoration-dashed">
           Perfect
         </span>
       </TextLoop>{" "}

@@ -14,10 +14,11 @@ Create polished GitHub profile READMEs with a guided, multi-step experience.
 
 - Lightning-fast profile creation.
 - GitHub stats blocks (streaks, languages, and summary cards).
-- Social links support.
+- Social links support (GitHub, X, LinkedIn, and more in the generator flow).
 - Tech stack badge generation.
 - Visitor counter and profile extras.
 - Donation links and fun profile components.
+- Homepage sections for Features, Social Links, GitHub Availability, and FAQ.
 
 ## How to Use
 Generate your README in the app, then copy and paste the output into your profile repository `README.md`.
@@ -26,6 +27,11 @@ Generate your README in the app, then copy and paste the output into your profil
 - X: [https://x.com/Salamander_hub](https://x.com/Salamander_hub)
 - LinkedIn: [https://www.linkedin.com/company/salamander-tech-hub/posts/?feedView=all](https://www.linkedin.com/company/salamander-tech-hub/posts/?feedView=all)
 - GitHub: [https://github.com/Salamander-Tech-Hub/](https://github.com/Salamander-Tech-Hub/)
+
+## FAQ
+- **Do I need to complete every form section?** No. Only the GitHub username is required.
+- **Do I need Markdown knowledge?** No. The generator is a no-code workflow.
+- **How do I publish my profile README?** Paste the generated content into your GitHub profile repository `README.md`.
 
 ## Tech Stack
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)

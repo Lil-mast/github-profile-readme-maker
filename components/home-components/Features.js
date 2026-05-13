@@ -13,7 +13,7 @@ const features = [
   {
     name: "Lightening fast Profile Creation",
     description:
-      "Create your Profile ReadMe in just few clicks ! On an average, it takes less than one minute to create a perfect Profile ReadMe using GPRM",
+      "Create your Profile ReadMe in just few clicks! On average, it takes less than one minute to create a perfect Profile ReadMe using BPG.",
     icon: LightningBoltIcon,
   },
   {
@@ -65,10 +65,10 @@ export default function Features() {
     <div className="py-12 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-base text-green-300 font-semibold tracking-wide uppercase">
+          <h2 className="text-base text-yellow-300 font-semibold tracking-wide uppercase">
             Features
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-bold text-green-200 sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 font-bold text-yellow-200 sm:text-4xl">
             We got everything that you need !
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
@@ -82,10 +82,10 @@ export default function Features() {
             {features.map((feature) => (
               <div key={feature.name} className="relative">
                 <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-300 text-zinc-800">
+                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-yellow-300 text-zinc-800">
                     <feature.icon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-green-200">
+                  <p className="ml-16 text-lg leading-6 font-medium text-yellow-200">
                     {feature.name}
                   </p>
                 </dt>

@@ -155,7 +155,7 @@ ${gprmStore.data.tech
   `;
     }
     finaldata = `${finaldata}
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->`;
+<!-- Proudly created with BPG by Salamander Tech Hub -->`;
     gprmStore.data.finalData = finaldata;
   }
   return useObserver(() => (

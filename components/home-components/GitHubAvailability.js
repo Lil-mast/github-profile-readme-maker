@@ -4,7 +4,7 @@ import { GITHUB_LOGO_LARGE_SVG } from "../elements/SVG";
 
 export default function GitHubAvailability() {
   return (
-    <div className="flex flex-col md:flex-row my-8 text-green-300">
+    <div className="flex flex-col md:flex-row my-8 text-yellow-300">
       <div className="w-full md:w-6/12 flex flex-col justify-center items-center">
         <GITHUB_LOGO_LARGE_SVG />
       </div>
@@ -16,10 +16,10 @@ export default function GitHubAvailability() {
           Yes you heard right, this website is open source and you can find code
           of this website on GitHub. You can request a feature, contribute to
           project by adding feedbacks and mentioning bugs if they exist.
-          Licensed under GPL-3.0 ©VishwaGauravIn
+          Licensed under GPL-3.0 © Salamander Tech Hub
         </p>
         <AnchorWithSVG
-          url="https://github.com/VishwaGauravIn/github-profile-readme-maker"
+          url="https://github.com/Salamander-Tech-Hub/"
           title="Visit GitHub"
         />
       </div>

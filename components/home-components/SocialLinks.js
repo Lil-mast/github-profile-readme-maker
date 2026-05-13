@@ -9,18 +9,18 @@ export default function SocialLinks() {
           Our Social Links
         </p>
         <p className="text-gray-400 md:pl-10 my-6 md:text-lg 2xl:text-xl md:text-right">
-          We are available on X, LinkedIn, and GitHub. Connect with Salamander
-          Tech Hub to stay updated on new features and upcoming launches.
+          Connect with Salamander Tech Hub across our official platforms to
+          stay updated on releases, updates, and community activity.
         </p>
         <div className="flex flex-row flex-wrap justify-center md:items-end">
           <AnchorWithSVG
-            url="https://www.linkedin.com/company/salamander-tech-hub/posts/?feedView=all"
-            title="LinkedIn"
+            url="https://github.com/Salamander-Tech-Hub/"
+            title="GitHub"
           />
           <AnchorWithSVG url="https://x.com/Salamander_hub" title="X" />
           <AnchorWithSVG
-            url="https://github.com/Salamander-Tech-Hub/"
-            title="GitHub"
+            url="https://www.linkedin.com/company/salamander-tech-hub/posts/?feedView=all"
+            title="LinkedIn"
           />
         </div>
       </div>

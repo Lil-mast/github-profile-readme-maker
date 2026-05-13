@@ -1,0 +1,11 @@
+{"sessionId":"1cfdb8","runId":"pre-fix","hypothesisId":"H5","location":"pages/index.js:8","message":"Home page function executed","data":{},"timestamp":1778669549907}
+{"sessionId":"1cfdb8","runId":"pre-fix","hypothesisId":"H5","location":"pages/index.js:8","message":"Home page function executed","data":{},"timestamp":1778669549912}
+{"sessionId":"1cfdb8","runId":"post-fix","hypothesisId":"H1","location":"components/elements/matrixBackground.js:4","message":"MatrixBackground mounted","data":{"status":"resolved-module"},"timestamp":1778669550203}
+{"sessionId":"1cfdb8","runId":"pre-fix","hypothesisId":"H4","location":"pages/_app.js:10","message":"App shell mounted","data":{"componentName":"Home"},"timestamp":1778669550205}
+{"sessionId":"1cfdb8","runId":"pre-fix","hypothesisId":"H5","location":"pages/index.js:8","message":"Home page function executed","data":{},"timestamp":1778669618836}
+{"sessionId":"1cfdb8","runId":"pre-fix","hypothesisId":"H5","location":"pages/index.js:8","message":"Home page function executed","data":{},"timestamp":1778670179767}
+{"sessionId":"1cfdb8","runId":"post-fix","hypothesisId":"H1","location":"components/elements/matrixBackground.js:4","message":"MatrixBackground mounted","data":{"status":"resolved-module"},"timestamp":1778670179856}
+{"sessionId":"1cfdb8","runId":"pre-fix","hypothesisId":"H4","location":"pages/_app.js:10","message":"App shell mounted","data":{"componentName":"Home"},"timestamp":1778670179858}
+{"sessionId":"1cfdb8","runId":"pre-fix","hypothesisId":"H5","location":"pages/index.js:8","message":"Home page function executed","data":{},"timestamp":1778670179769}
+{"sessionId":"1cfdb8","runId":"post-fix","hypothesisId":"H1","location":"components/elements/matrixBackground.js:4","message":"MatrixBackground mounted","data":{"status":"resolved-module"},"timestamp":1778670540539}
+{"sessionId":"1cfdb8","runId":"pre-fix","hypothesisId":"H4","location":"pages/_app.js:10","message":"App shell mounted","data":{"componentName":"Home"},"timestamp":1778670540539}

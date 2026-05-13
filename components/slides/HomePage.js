@@ -5,7 +5,6 @@ import GitHubAvailability from "../home-components/GitHubAvailability";
 import ToastError from "../elements/toaster/ToastError";
 import AboutMe from "./AboutMe";
 import FAQ from "../home-components/FAQ";
-import Credits from "../home-components/Credits";
 import SocialLinks from "../home-components/SocialLinks";
 import ScrollToTop from "../elements/ScrollToTop";
 import { RIGHT_ARROW_SVG } from "../elements/SVG";
@@ -60,7 +59,7 @@ export default function HomePage() {
                     required={true}
                     onChange={(e) => setInput(e.target.value)}
                     autoFocus={true}
-                    className="border-b-2 border-green-200 bg-transparent w-full sm:w-11/12 md:w-10/12 lg:w-8/12 text-xl sm:text-3xl md:text-xl lg:text-2xl 2xl:text-3xl outline-none focus:border-green-300 focus:border-b-4 inline"
+                    className="border-b-2 border-yellow-200 bg-transparent w-full sm:w-11/12 md:w-10/12 lg:w-8/12 text-xl sm:text-3xl md:text-xl lg:text-2xl 2xl:text-3xl outline-none focus:border-yellow-300 focus:border-b-4 inline"
                     placeholder="Enter Your GitHub Username"
                   />
                   <button type="Submit">
@@ -86,7 +85,6 @@ export default function HomePage() {
           <SocialLinks />
           <GitHubAvailability />
           <FAQ />
-          <Credits />
           <ScrollToTop />
         </div>
       )}

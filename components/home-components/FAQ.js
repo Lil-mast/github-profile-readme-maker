@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FAQ() {
   return (
-    <div className="bg-lightblue py-20 px-4 text-zinc-500">
+    <div className="py-20 px-4 text-zinc-500">
       <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
         <h2 className="mr-8 w-full md:w-1/3 text-3xl font-bold leading-9 text-zinc-400 mb-10 md:mb-0">
           Frequently-asked questions
@@ -43,17 +43,10 @@ export default function FAQ() {
             <p>
               If you already have your personal repository (personal repository
               name is same as your GitHub username) then you can copy paste the
-              code generated from GPRM in your ReadMe file. If you don&apos;t
+              code generated from BPG in your ReadMe file. If you don&apos;t
               have your personal repository then follow this : <br />
               <b>Step 1 :</b> Go to{" "}
-              <a
-                href="https://github.com/new"
-                className="text-cyan-700"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://github.com/new
-              </a>{" "}
+              <span className="text-yellow-300">your GitHub repository page</span>{" "}
               and enter the same name as your GitHub username into the
               Repository name field.
               <br />
